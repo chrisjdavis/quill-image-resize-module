@@ -113,7 +113,7 @@ export default class ImageResize {
             this.hideOverlay();
         }
 
-        this.quill.setSelection(null);
+//         this.quill.setSelection(null);
 
         // prevent spurious text selection
         this.setUserSelect('none');
